@@ -7,7 +7,7 @@
   min-height: 100vh;
   background-image: linear-gradient(#ca81c0, #7b827b);
 }
-.pigeon-list {
+.pigeonList {
   list-style: none;
   padding: 1em;
 }

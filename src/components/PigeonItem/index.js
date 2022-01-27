@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./PigeonItem.css";
+import css from "./PigeonItem.module.css";
 
 function PigeonItem({ id, name, longitude, latitude, img_url }) {
   return (
-    <li className="container">
+    <li className={css.contairer}>
       <div>
         <p>id: {id}</p>
         <p>name: {name}</p>
